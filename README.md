@@ -1,17 +1,11 @@
-# simmobility_aimsun - under construction
+# simmobility aimsun 
 
 
-<img
-  src="https://t3.ftcdn.net/jpg/03/53/83/92/360_F_353839266_8yqhN0548cGxrl4VOxngsiJzDgrDHxjG.jpg"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
-
-This repository contain nearly data for the integration between 2 simulators
+**This repository contain nearly data for the integration between 2 simulators**
 
 
 
-1. The prime code from ubuntu terminal is (for iteration 1 to 40)  :
+**1. The prime code from ubuntu terminal is (for iteration 1 to 40)  :**
 
 for i in {1..40}; do cd  &&  echo "iteration" $i  &&
   cd "/home/yedidya/simmobility/dev/Basic" &&
@@ -36,19 +30,19 @@ for i in {1..40}; do cd  &&  echo "iteration" $i  &&
 
 you need to make configuration of the folders and files, replications, and location and attach files in the scripts.
  
-2. The file "simo_taz_change" is not necessary if the AIMSUN centroid external id represents the DAS zones.
+**2. The file "simo_taz_change" is not necessary if the AIMSUN centroid external id represents the DAS zones**
 
-3. "simo_outputs" makes analysis of Das after a preday run. (you need the individual table for this)
+**3. "simo_outputs" makes analysis of Das after a preday run. (you need the individual table for this)**
 
-4. The file aimso_outputs make analysis from sqlite file + update am cost file + save linear regression  pict. 
+**4. The file aimso_outputs make analysis from sqlite file + update am cost file + save linear regression  pict.**
 
-5. you need that in your expremient  on aimsun next make a "before-run" script that makes a matrix from das (script that i sent you) but in some changes so i send again + the external file. see that you need the code the position of iteration number on the aimsun file path
+**5. you need that in your expremient  on aimsun next make a "before-run" script that makes a matrix from das (script that i sent you) but in some changes so i send again + the external file. see that you need the code the position of iteration number on the aimsun file path**
 
 
-I recommend executing the code line by line, for example first:
+**I recommend executing the code line by line, for example first:**
 
 for i in {1..40}; do cd  &&  echo "iteration" $i  &&
   cd "/home/yedidya/simmobility/dev/Basic" &&
   echo "done iteration -------------------------------------------------------------------------------------------------"; done
 
-Then carefully add command by  command   according to the configuration of your run
+**Then carefully add command by  command   according to the configuration of your run**
